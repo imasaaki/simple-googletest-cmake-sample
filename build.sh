@@ -1,7 +1,7 @@
 #!/bin/sh
-rm build -fr
+rm build -r
 mkdir build
 cd build
 cmake ..
-make -j8
+make
 

@@ -1,0 +1,1 @@
+- just a sample code of [this article(only in Japanese)](https://qiita.com/imasaaki/items/c56639c86627a8a950de)

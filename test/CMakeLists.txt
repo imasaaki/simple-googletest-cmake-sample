@@ -15,11 +15,9 @@ target_include_directories(${MY_BINARY_NAME} PUBLIC
   ${MY_TEST_INCLUDES}
   )
 
-# append necessary libraries here
 target_link_libraries(${MY_BINARY_NAME}
   GTest::GTest
   GTest::GMock
-  ${MY_LIBS}
   )
 
 add_dependencies(${MY_BINARY_NAME}
